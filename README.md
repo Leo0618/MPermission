@@ -5,7 +5,8 @@ Android M动态权限管理 详情介绍:[https://github.com/googlesamples/easyp
 ----------
 
 
-##Usage##
+## Usage ##
+
 
 **Step1:加入依赖**
 
@@ -46,7 +47,7 @@ Android M动态权限管理 详情介绍:[https://github.com/googlesamples/easyp
 
 
 
-##附：需要动态申请的权限##
+## 附：需要动态申请的权限 ##
 
 	group:android.permission-group.CONTACTS
 	    permission:android.permission.WRITE_CONTACTS
