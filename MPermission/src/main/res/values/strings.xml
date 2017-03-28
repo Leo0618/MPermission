@@ -1,0 +1,4 @@
+<resources>
+    <string name="rationale_ask_again">请打开进入设置修改当前应用权限，以保证正常使用.</string>
+    <string name="title_settings_dialog">权限被拒绝</string>
+</resources>
