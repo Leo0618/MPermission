@@ -41,15 +41,15 @@ Android M动态权限管理 详情介绍:[https://github.com/googlesamples/easyp
 	new MPermissionSettingsDialog.Builder(this).build().show();
 
 
-**Step3:在project/app/AndroidManifest.xml中加入 AppSettingsDialogHolderActivity：
+**Step3:在project/app/AndroidManifest.xml中加入 AppSettingsDialogHolderActivity**
 
-		<application >
-			...
+	<application >
+		...
 	        <activity
                 android:name="com.leo618.mpermission.AppSettingsDialogHolderActivity"
                 android:exported="false"
                 android:theme="@style/MPermissions.Transparent"/>
-	    </application>
+	</application>
 
 
 **Step4:加入混淆规则**
