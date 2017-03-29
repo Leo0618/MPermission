@@ -7,8 +7,7 @@
         <activity
             android:name="com.leo618.mpermission.AppSettingsDialogHolderActivity"
             android:exported="false"
-            android:label=""
-            android:theme="@style/EasyPermissions.Transparent"/>
+            android:theme="@style/MPermissions.Transparent"/>
     </application>
 
 </manifest>

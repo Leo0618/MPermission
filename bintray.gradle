@@ -2,7 +2,7 @@ apply plugin: 'com.github.dcendents.android-maven'
 apply plugin: 'com.jfrog.bintray'
 
 group = "com.leo618"
-version = "0.0.1"
+version = "0.0.2"
 
 def siteUrl = 'https://github.com/Leo0618/MPermission'
 def gitUrl = 'git@github.com:Leo0618/MPermission.git'

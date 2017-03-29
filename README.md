@@ -11,7 +11,7 @@ Android M动态权限管理 详情介绍:[https://github.com/googlesamples/easyp
 **Step1:加入依赖**
 
 	dependencies {
-	    compile 'com.leo618:MPermission:0.0.1'
+	    compile 'com.leo618:MPermission:0.0.2'
 	}
 
 **Step2:注解代码调用**具体使用代码请参考demo的[MainActivity](https://github.com/Leo0618/MPermission/blob/master/app/src/main/java/com/leo618/mpermissions/MainActivity.java "MainActivity")
@@ -40,7 +40,19 @@ Android M动态权限管理 详情介绍:[https://github.com/googlesamples/easyp
 	//封装好的谈对话框询问跳转设置页面进行修改权限
 	new MPermissionSettingsDialog.Builder(this).build().show();
 
-**Step3:加入混淆规则**
+
+**Step3:在project/app/AndroidManifest.xml中加入 AppSettingsDialogHolderActivity：
+
+		<application >
+			...
+	        <activity
+                android:name="com.leo618.mpermission.AppSettingsDialogHolderActivity"
+                android:exported="false"
+                android:theme="@style/MPermissions.Transparent"/>
+	    </application>
+
+
+**Step4:加入混淆规则**
 	
 	-dontwarn com.leo618.mpermission**
 	-keep class com.leo618.mpermission.** {*;}
