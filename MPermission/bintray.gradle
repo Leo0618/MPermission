@@ -1,0 +1,16 @@
+apply plugin: 'com.novoda.bintray-release'
+publish {
+    userOrg = 'bytehit'
+    groupId = 'com.leo618'
+    artifactId = 'MPermission'
+    publishVersion = '0.0.3'
+    desc = 'Android M Permissions'
+    website = 'https://github.com/Leo0618/MPermission'
+}
+tasks.withType(Javadoc) {
+    options {
+        encoding "UTF-8"
+        charSet 'UTF-8'
+    }
+    options.addStringOption('Xdoclint:none', '-quiet')
+}
